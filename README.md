@@ -1,2 +1,2 @@
 # Cynchronizer
-A linux daemon to to synchronize 2 catalogs
+A linux daemon to synchronize 2 catalogs
