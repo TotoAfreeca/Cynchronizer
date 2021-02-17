@@ -19,8 +19,8 @@ touch Destination/b.txt
 mkdir Destination/B/H
 
 #testing
-./Synchronizer ./Source ./Destination -R -s 20
+./Cynchronizer ./Source ./Destination -R -s 20
 sleep 5
-less /var/log/syslog | grep Synchronizer
+less /var/log/syslog | grep Cynchronizer
 
 
