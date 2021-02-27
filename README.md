@@ -27,8 +27,8 @@ A comparison of copying time with various methods using *SSD Kingston 240GB M.2 
 Averaged on 5 samples
 File size [MB] | AVG read/write speed (buffer 128kb) [CPU Time] | AVG MMAP speed [CPU Time] | AVG copy_file_range speed [CPU Time]
 ------------ | -------------|-------------| ------------- 
-1 c | 0,002895 | 0.001087 | 0.000991
-10 c | 0.012218 | 0.010152 | 0.025026
-100 c | 0.173643 | 0.183509 | 0.149131
-500 c | 0.781143 | 0.939122 | 0.741254
-1000 c | 1.874431 | 1.819829 | 1.525884
+1 | 0,002895 | 0.001087 | 0.000991
+10 | 0.012218 | 0.010152 | 0.025026
+100 | 0.173643 | 0.183509 | 0.149131
+500 | 0.781143 | 0.939122 | 0.741254
+1000 | 1.874431 | 1.819829 | 1.525884
